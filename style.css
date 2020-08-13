@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+  color: #484848;
+}
+
+.container {
+  margin: 0 auto;
+  width: 60%;
+}
+
+h1 {
+  margin: 1rem 0;
+}
+
+.card {
+  display: flex;
+  border-bottom: 1px solid #e2e2e2;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+.card__image {
+  width: 30%;
+  border-radius: 1rem;
+}
+
+.card__details {
+  position: relative;
+  padding: 0 1rem;
+  width: 100%;
+}
+
+.card__sub-title {
+  font-size: 0.9rem;
+  margin-bottom: 0.25rem;
+  font-weight: 300;
+}
+
+.card__title {
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.card__rooms,
+.card__amenities {
+  display: block;
+  font-size: 0.9rem;
+  font-weight: 300;
+  margin-bottom: 0.3rem;
+}
+
+.card__bottom {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.card__stars {
+  font-size: 0.9rem;
+}
+
+.card__price {
+  font-size: 1.1rem;
+}
